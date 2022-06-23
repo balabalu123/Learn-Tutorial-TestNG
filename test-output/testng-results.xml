@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55792" started-at="2022-06-06T08:53:10Z" finished-at="2022-06-06T08:54:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55792" started-at="2022-06-06T08:53:10Z" finished-at="2022-06-06T08:54:06Z">
+      <class name="org.dataDriven.DataProviderTestNGJxlExcelsheet">
+        <test-method status="PASS" signature="dataprovider(java.lang.String, java.lang.String)[pri:0, instance:org.dataDriven.DataProviderTestNGJxlExcelsheet@7d907bac]" name="dataprovider" duration-ms="18934" started-at="2022-06-06T08:53:11Z" data-provider="logindata" finished-at="2022-06-06T08:53:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider -->
+        <test-method status="PASS" signature="dataprovider(java.lang.String, java.lang.String)[pri:0, instance:org.dataDriven.DataProviderTestNGJxlExcelsheet@7d907bac]" name="dataprovider" duration-ms="10357" started-at="2022-06-06T08:53:30Z" data-provider="logindata" finished-at="2022-06-06T08:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider -->
+        <test-method status="PASS" signature="dataprovider(java.lang.String, java.lang.String)[pri:0, instance:org.dataDriven.DataProviderTestNGJxlExcelsheet@7d907bac]" name="dataprovider" duration-ms="10337" started-at="2022-06-06T08:53:40Z" data-provider="logindata" finished-at="2022-06-06T08:53:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Aadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider -->
+        <test-method status="PASS" signature="dataprovider(java.lang.String, java.lang.String)[pri:0, instance:org.dataDriven.DataProviderTestNGJxlExcelsheet@7d907bac]" name="dataprovider" duration-ms="15769" started-at="2022-06-06T08:53:50Z" data-provider="logindata" finished-at="2022-06-06T08:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Aadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider -->
+      </class> <!-- org.dataDriven.DataProviderTestNGJxlExcelsheet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

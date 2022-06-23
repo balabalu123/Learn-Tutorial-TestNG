@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Login Suite]">
+  <test thread-count="5" verbose="4" name="Login to Application(failed)">
+    <classes>
+      <class name="org.dataDriven.Jxl">
+        <methods>
+          <include name="launch"/>
+          <include name="quitBrowser"/>
+          <include name="BothCorrect"/>
+        </methods>
+      </class> <!-- org.dataDriven.Jxl -->
+    </classes>
+  </test> <!-- Login to Application(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->

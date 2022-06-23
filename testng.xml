@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite" >
+ <!-- <listeners > 
+<listener class-name="org.learnTestNG.Part12Listeners">
+</listener>
+</listeners> -->
+  <!-- <test  name="BothCorrect"> -->
+ <!--  <groups>
+ <run>
+  <include name="Apple"></include>
+  <include name="Moto"></include>
+  </run>   </groups>
+    -->
+    <!-- <parameter name="Name" value="balu">
+    </parameter> -->
+    <!-- <parameter name="userName" value="Admin"></parameter>
+    <parameter name="passWord" value="admin123"></parameter>
+   
+    <classes>
+    <class name="org.dataDriven.Part2DataDrivenUsingTestNgParameters" >
+    </class>
+     -->
+    
+    
+    
+    <!-- <class name="org.learnTestNG.Part8Parameterization"/> -->
+     <!--  <class name="org.learnTestNG.Part4Dependencies"/>
+      <class name="org.learnTestNG.Part1Introduction"/>
+      <class name="org.learnTestNG.Part3SkipTest"/>
+      <class name="org.learnTestNG.Part5TestSuites"/>
+      <class name="org.learnTestNG.Part2Priority"/> -->
+   <!--  </classes> -->
+ <!--  </test> 
+  <test  name="CorrectUserName">
+   <parameter name="userName" value="Admin"></parameter>
+    <parameter name="passWord" value="admin2848"></parameter>
+    <classes>
+    <class name="org.dataDriven.CorrectUserName" >
+    </class>
+     </classes>
+  </test> 
+   <test  name="CorrectPassWord">
+   <parameter name="userName" value="adddmin"></parameter>
+    <parameter name="passWord" value="admin123"></parameter>
+    <classes>
+    <class name="org.dataDriven.CorrectPassWord" >
+    </class>
+     </classes>
+  </test> 
+   <test  name="BothIncorrect">
+   <parameter name="userName" value="admeen"></parameter>
+    <parameter name="passWord" value="aadmin1234"></parameter>
+    <classes>
+    <class name="org.dataDriven.BothIncorrect" >
+    </class>
+     </classes>
+  </test> Test -->
+  <test name="Login to Application">
+  
+  <classes>
+  <class name ="org.dataDriven.Jxl">
+  
+   </class>
+  </classes>
+  
+  
+  </test>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</suite> 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Test Suite]">
+  <test thread-count="5" verbose="2" name="Test 01(failed)">
+    <classes>
+      <class name="org.learnTestNG.Part1Introduction">
+        <methods>
+          <include name="firstTestcase"/>
+          <include name="fourthTestcase"/>
+          <include name="secondTestcase"/>
+          <include name="ThirdTestcase"/>
+          <include name="fifthTestcase"/>
+        </methods>
+      </class> <!-- org.learnTestNG.Part1Introduction -->
+      <class name="org.learnTestNG.Part4Dependencies">
+        <methods>
+          <include name="HigherSecSchool"/>
+          <include name="Highschool"/>
+          <include name="Engineering"/>
+        </methods>
+      </class> <!-- org.learnTestNG.Part4Dependencies -->
+      <class name="org.learnTestNG.Part5TestSuites">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Tc001"/>
+          <include name="Tc002"/>
+          <include name="Tc003"/>
+        </methods>
+      </class> <!-- org.learnTestNG.Part5TestSuites -->
+    </classes>
+  </test> <!-- Test 01(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
